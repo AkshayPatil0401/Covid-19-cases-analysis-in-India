@@ -4,6 +4,9 @@ Covid-19 cases analysis in India
 https://www.mohfw.gov.in/data/datanew.json  ---> This is the link from which you can fetch the information.
 you can use this link and store the information in pandas dataframe and start your analysis.
 
+A small analysis for tracking the count of cases of coroavirus in india state wise. In this usecase, we can visualize that,
+which state is most affected by coronavirus
+
 "df1=df.iloc[:,1:3]
 df1.plot.barh(color={"cured": "red", "positive": "green"},figsize=(10,10))"
 
